@@ -1,0 +1,149 @@
+{
+    "forecaster": {
+      "error": "Something went wrong"
+    },
+    "chart": {
+      "year": "year",
+      "years": "years",
+      "below": "Below average",
+      "average": "Average",
+      "above": "Above average",
+      "total": "Total deposits",
+      "description": "Chart showing simulated outcomes based on a balanced portfolio"
+    },
+    "input": {
+      "required": "A value is required",
+      "minValue": "Minimum value is {value}",
+      "maxValue": "Maximum value is {value}",
+      "minLength": "Minimum length is {length} characters",
+      "maxLength": "Maximum length is {length} characters"
+    },
+    "modal": {
+      "close": "Close"
+    },
+    "radio": {
+      "required": "Please choose an answer"
+    },
+    "legend": {
+      "aboveAve": "Above-average scenario",
+      "average": "Average scenario",
+      "belowAve": "Below-average scenario",
+      "contributions": "Total contributions",
+      "title": "Possible outcomes",
+      "footer": "More information",
+      "point": "Coloured dot representing a line on a graph"
+    },
+    "terms": {
+      "initialInvestment": "Initial investment",
+      "timeHorizon": "Time horizon",
+      "monthlyContribution": "Monthly contribution",
+      "costs": "Est. monthly costs",
+      "profile": "Risk profile",
+      "invest": "Invest now",
+      "edit": "Edit simulation",
+      "riskProfile": {
+        "1": "Risk 1",
+        "2": "Risk 2",
+        "3": "Risk 3",
+        "4": "Moderate",
+        "5": "Risk 5",
+        "6": "Risk 6",
+        "7": "Risk 7"
+      } 
+    },
+    "termsModal": {
+      "initialInvestment": {
+        "label": "How much do you want to invest now?",
+        "helpAbove": "Minimum initial investment is £10,000",
+        "help": "The input must be between £500 and £100,000",
+        "iconAlt": "Initial investment icon"
+      },
+      "timeHorizon": {
+        "label": "How long do you want to invest for?",
+        "helpAbove": "Minimum 5 years",
+        "help": "The number of years to invest, must be between 5 and 75",
+        "suffix": "years",
+        "iconAlt": "Time horizon icon"
+      },
+      "monthlyContribution": {
+        "label": "How much would you like to invest each month? (optional)",
+        "helpAbove": "Minimum monthly contribution is £250",
+        "help": "The input must be between £250 and £100,000",
+        "iconAlt": "Monthly contribution icon"
+      },
+      "next": "Next",
+      "back": "Back",
+      "done": "Done"
+    },
+    "situation": {
+      "start" : {
+        "header": "Your financial situation",
+        "content": "We'll gather some essential facts about you that will help us provide advice that fits your financial situation.",
+        "begin": "Next",
+        "back": "Back"
+      },
+      "income": {
+        "label": "What is your monthly income (after tax)?",
+        "helpAbove": "Include income from salary, pensions, investments, rental properties and any other sources."
+      },
+      "outgoings": {
+        "label": "How much is your fixed monthly expenditure?",
+        "helpAbove": "Enter a realistic estimate of your costs that you have to spend, such as household costs, clothing, personal debt payments and childcare."
+      },
+      "assets": {
+        "label": "What is the value of your liquid assets (money and investments)?",
+        "helpAbove": "Do not include the value of property, pensions or other assets that are not liquid."
+      },
+      "emergencyFunds": {
+        "header": "If you needed money in the case of an emergency, would you have access to enough without having to take it from this investment?",
+        "options": {
+          "1": "Yes, I have personal savings that I can use for emergencies",
+          "2": "Yes, I have other assured means of accessing money such as a spouse, friends, relatives or excess disposable income sufficient to meet my needs",
+          "3": "Maybe. I might take cash from this investment but would consider other sources first",
+          "4": "No, I have no other alternative, I would most certainly need to access this investment"
+        }
+      }
+    },
+    "risk": {
+      "start" : {
+        "header": "Your risk tolerance",
+        "content": "This set of questions are based on behavioural and cognitive theory to understand the risk you are willing and able to take.",
+        "begin": "Help me choose",
+        "back": "Back"
+      },
+      "next": "Next",
+      "back": "Back"
+    },
+    "objectives": {
+      "start" : {
+        "header": "Your goal",
+        "content": "Define your goal so that you have something to aim for and you can monitor progress of your investments in a meaningful way.",
+        "begin": "Next",
+        "back": "Back"
+      },
+      "age": {
+        "label": "How old are you?",
+        "helpAbove": "We’ll use this to check that the length of time you want to invest for is realistic. Note that if you are over 80 we don't currently have a suitable investment recommendation for you.",
+        "suffix": "years"
+      }
+    },
+    "navigation": {
+      "next": "Next",
+      "back": "Back",
+      "done": "Done"
+    },
+    "portfolio": {
+      "chart": {
+        "heading": "Asset allocation",
+        "subtext": "Please mouse over to see details",
+        "label": "initial contribution"
+      },
+      "table": {
+        "heading": "Explore your portfolio",
+        "subtext": "We recommend an asset allocation with slightly more equity exposure for long-term investment growth."
+      },
+      "recommendation": {
+        "heading": "Your Portfolio Recommendation"
+      }
+    }
+}

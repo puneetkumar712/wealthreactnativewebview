@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>GDW Web Components - Forecaster</title>
+    <style>
+      html {
+        font-size: 16px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: #fefefe;
+        font-family: "neuzeit_grotesk", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        line-height: 1.45;
+        color: #20242b;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      div,
+      dl,
+      dt,
+      dd,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      pre,
+      form,
+      p,
+      blockquote,
+      th,
+      td {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "neuzeit_grotesk", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: inherit;
+        text-rendering: optimizeLegibility;
+      }
+      h1,
+      h2,
+      h3 {
+        font-weight: 300;
+      }
+      .row {
+        max-width: 75rem;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .row::before,
+      .row::after {
+        display: table;
+        content: " ";
+      }
+
+      ul,
+      ol,
+      dl {
+        margin-bottom: 26px;
+        list-style-position: outside;
+        line-height: 1.45;
+      }
+
+      ul {
+        margin-left: 1.25rem;
+        list-style-type: disc;
+      }
+
+      ul,
+      ol {
+        padding-left: 0;
+        list-style: none;
+      }
+
+      li {
+        font-size: inherit;
+      }
+
+      li {
+        position: relative;
+        margin-bottom: 0.75rem;
+        font-size: 1rem;
+      }
+
+      li {
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+      }
+
+      li:before {
+        position: absolute;
+        top: 0.4375rem;
+        left: -1.0625rem;
+        width: 6px;
+        height: 6px;
+        content: "";
+        vertical-align: middle;
+        background-color: #016fad;
+      }
+
+      li:before {
+        width: 8px;
+        height: 8px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      a,
+      .a {
+        font-weight: 400;
+      }
+      a {
+        line-height: inherit;
+        color: #016fad;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      a {
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+      }
+    </style>
+     <link rel="stylesheet" href="https://web-components.gdw.fil.com/forecaster/index.css" />
+     <script src="https://web-components.gdw.fil.com/forecaster/vendor.js"></script>
+     <script src="https://web-components.gdw.fil.com/forecaster/index.js"></script>
+    <!-- <link href="index.css" rel="stylesheet" />
+    <script src="vendor.js"></script>
+    <script src="index.js"></script> -->
+  </head>
+  <body>
+    <div class="row">
+      <h1>Forecaster</h1>
+      <gdw-forecaster></gdw-forecaster>
+    </div>
+  </body>
+</html>
